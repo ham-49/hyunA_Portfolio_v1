@@ -197,7 +197,7 @@ const projectLists = [
     mainImg: "image/aquarium.png",
     subImg: "image/aquarium-responsive.png",
     popupInfo: "기획, 디자인, 웹 퍼플리싱 참여(팀프로젝트)",
-    mainList: ["headerAPI, Date", "프로그램", "Review", "Footer"],
+    mainList: ["headerAPI, Date", "프로그램", "리뷰", "Footer"],
     SubList: ["설명프로그램", "체험프로그램", "교육프로그램"],
     plannerLink: "https://docs.google.com/presentation/d/1vTG0JJkd84qfz4xTqQhuSxXUBTXuoIO8ciO7UXdLdVc/edit?usp=sharing",
     designLink: "https://www.figma.com/file/cYRyXXyj2RU8S13r8s38OI/Plan-A?node-id=90-2"
