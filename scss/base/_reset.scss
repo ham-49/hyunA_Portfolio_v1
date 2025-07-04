@@ -1,0 +1,89 @@
+/* 기본 리셋 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: $body;
+  font-family: $primary-kr;
+  font-weight: 300;
+  color: $main-black;
+}
+
+ul,
+li {
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background: $background;
+}
+
+.inner{
+  width: $inner;
+  padding-top: 150px;
+  margin: auto;
+}
+/* 링크 기본 스타일 제거 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 제목, 문단 등 기본 마진/패딩 제거 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+/* 버튼 커서 포인터 */
+button {
+  all: unset;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+
+
+/* input 기본 테두리 제거 */
+input {
+  border: none;
+  outline: none;
+}
+
+/* font size */
+h1{font-size: $h1;}
+h2{font-size: $h2;}
+h3{font-size: $h3;}
+h4{font-size: $h4;}
+h5{font-size: $h5;}
+h6{font-size: $h6;}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  h1{font-size: $h2;}
+  h2{font-size: $h3;}
+  h3{font-size: $h4;}
+  h4{font-size: $h5;}
+  h5{font-size: $h6;}
+  h6{font-size: $body-title;}
+}
+@media (max-width: 767px) {
+  h1{font-size: $h3;}
+  h2{font-size: $h4;}
+  h3{font-size: $h5;}
+  h4{font-size: $h6;}
+  h5{font-size: $body-title;}
+  h6{font-size: $body-title;}
+}

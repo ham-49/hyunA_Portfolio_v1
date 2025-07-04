@@ -1,0 +1,202 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .inner{
+    width: 90%;
+    padding-top: 120px;
+  }
+  /* ########## intro ########## */
+  .intro{
+    .intro-text-wrap{
+      left: 3%;
+      h1{
+        font-family: $primary-en;
+        margin-bottom: -30px;
+        padding-left: 20px;
+        font-size: $h3;
+      }
+      p{
+        font-size: $intro-title;
+        font-family: $primary-en;
+      }
+      h2{
+        padding-left: 20px;
+        margin-bottom: -5px;
+        font-size: $h4;
+      }
+    }
+  }
+  /* ######### about-me ######### */
+  .about-me{
+    .inner{
+      .info-top-wrap{
+        grid-template-areas:
+          "title title"
+          "image info";
+        grid-template-columns: 1fr 2fr;
+        max-width: 1000px;
+        margin: 0 auto;
+        .info-img{
+          margin: 0 40px;
+        }
+        .info-text-top{
+          text-align: center;
+          p{
+            font-size: $h4;
+            line-height: 1.3;
+            strong{
+              font-size: 35px;
+              font-weight: 600;
+            }
+          }
+        }
+        .info-text-bottom{
+            flex-direction: column; gap: 25px; height: max-content;
+            margin-bottom: 10px;
+        }
+      }
+      .info-bottom-wrap{
+        .info-bottom-title{
+          h2{
+            font-size: $h3;
+          }
+        }
+        .info-bottom-items{
+          
+          .info-bottom-item{
+            &:nth-child(2){
+              .item-balloon{
+                left: 10%;
+                &::before{
+                  content: "";
+                  left: 40%;
+                }
+              }
+            }
+            &:nth-child(3){
+              .item-balloon{
+                left: 10%;
+                &::before{
+                  content: "";
+                  left: 70%;
+                }
+              }
+            }
+            &:nth-child(4){
+              .item-balloon{
+                left: 27%;
+                &::before{
+                  content: "";
+                  left: 85%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /* ######### Skills ######### */
+  .Skills{
+    .skills-content{
+      padding: 25px 40px;
+      display: flex; justify-content: center; gap: 40px; flex-direction: column;
+      margin-top: 40px;
+      .skills-left{
+        flex: 6;
+        padding-left: 0;
+        .skill-wrap{
+          @at-root .skills-sub-title{
+            h4{
+              margin: $margin20;
+            }
+          }
+          .skill-items{
+            .skill-item-wrap{
+              .info-bottom-item{
+                .item-balloon{
+                  width: 430px; height: auto;
+                  line-height: 1.3;
+                  display: flex; align-items: center; justify-content: center;
+                  padding: 10px;
+                  margin-top: 10px;
+                }
+                &:hover{
+                    .item-text{
+                      animation: none;
+                    }
+                    .item-balloon{
+                      opacity: 1;
+                      visibility: visible;
+                      transform: translateY(0);
+                    }
+                  }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /* ######### Portfolio Hub ######### */
+  .portfolio-hub{
+    .portfolio-content{
+      gap: 30px;
+      .portfolio-left{
+        flex: auto;
+        width: 70%;
+      }
+      .portfolio-right{
+        flex: auto;
+        width: 30%;
+        .monitor{
+          display: none;
+        }
+        .phone{
+          width: 85%;
+          z-index: 10;
+          position: absolute;
+          top: 10%; right: 0;
+          img{
+            width: 70%;
+            object-fit: cover;
+          }
+        }
+        &.active{
+          display: block;
+        }
+      }
+    }
+    .portfolio-popup-wrap{
+      .popup-close-btn{
+        bottom: 96%; left: 95%;
+        width: 27px; height: 27px;
+        font-size: $body-big;
+      }
+    }
+  }
+  /* ######### Epilogue ######### */
+  .epilogue{
+    .epilogue-content{
+      .epilogue-items{
+        .epilogue-question{
+        font-size: $h6;
+        }
+        .epilogue-answer{
+          font-size: $body-title;
+          line-height: 1.6;
+          padding-left: 20px;
+        }
+        &:first-child{
+          .epilogue-question{
+          span{
+            &:last-child{
+              display: block;
+              padding-left: 20px;
+              margin: $text-margin;
+            }
+          }
+        }
+        }
+      }
+    }
+  }
+}
