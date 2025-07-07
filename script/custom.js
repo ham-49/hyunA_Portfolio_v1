@@ -167,6 +167,24 @@ navItems.forEach(item => {
 /* ######## portfolio ######## */
 const projectLists = [
   {
+    title: "날씨웹",
+    titleMain: "날씨 웹 프로젝트",
+    titleSub: "openweather API를 활용하여 실시간 날씨 정보를 보여주는 웹을 설계하였습니다.",
+    skills: ["VS Code", "react", "CSS"],
+    option: "solo",
+    design: "Figma",
+    impact: "100%",
+    gitUrl: "https://github.com/ham-49/weather",
+    pageUrl: "https://weather-49.netlify.app/",
+    mainImg: "image/weather.png",
+    subImg: "image/weather-responsive.png",
+    popupInfo: "기획, 디자인, 웹 퍼플리싱 참여 (개인프로젝트)",
+    mainList: ["메인페이지 전체"],
+    SubList: ["서브페이지 X"],
+    /* plannerLink: , */
+    designLink: "https://www.figma.com/design/0vwPwwWuKwiQBdCc5w0c3P/%EB%82%A0%EC%94%A8API?node-id=0-1&m=dev&t=EdZxsXANRGDt2PTy-1"
+  },
+  {
     title: "노티드 도넛",
     titleMain: "노티드 일체형 페이지 리뉴얼",
     titleSub: "다양한 콘텐츠 배치로 브렌드의 가치를 살리며, <br> 방문자가 직관적으로 주요 기능을 이용할 수 있도록 설계하였습니다.",
