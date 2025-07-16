@@ -366,6 +366,7 @@ function renderProjects(data) {
 
     portfolioRight.innerHTML = monitorHTML + phoneHTML;
     container.appendChild(portfolioRight);
+  });
 }
 
 /* 필터링 */
