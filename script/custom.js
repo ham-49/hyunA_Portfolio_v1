@@ -346,16 +346,26 @@ function renderProjects(data) {
     /* right */
     let portfolioRight = document.createElement('div');
     portfolioRight.className = 'portfolio-right';
-    portfolioRight.innerHTML = `
-      <div class="monitor">
-        <img src="${list.mainImg}" alt="${list.title}">
-      </div>
-      <div class="phone">
-        <img src="${list.subImg}" alt="${list.title}">
-      </div>
-    `;
+    let monitorHTML = '';
+    let phoneHTML = '';
+    if (list.mainImg) {
+      monitorHTML = `
+        <div class="monitor">
+          <img src="${list.mainImg}" alt="${list.title}">
+        </div>
+      `;
+    }
+
+    if (list.subImg) {
+      phoneHTML = `
+        <div class="phone">
+          <img src="${list.subImg}" alt="${list.title}">
+        </div>
+      `;
+    }
+
+    portfolioRight.innerHTML = monitorHTML + phoneHTML;
     container.appendChild(portfolioRight);
-  });
 }
 
 /* 필터링 */
