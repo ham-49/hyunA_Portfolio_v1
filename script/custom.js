@@ -166,6 +166,24 @@ navItems.forEach(item => {
 
 /* ######## portfolio ######## */
 const projectLists = [
+    {
+    title: "영화사이트",
+    titleMain: "영화 사이트 프로젝트",
+    titleSub: "TMDB API를 활용하여 다양한 데이터를 활용하여, <br> 영화에 대한 리뷰, 정보를 제공하는 사이트를 제작했습니다.",
+    skills: ["VS Code", "react", "SCSS"],
+    option: "solo",
+    design: "Figma",
+    impact: "100%",
+    gitUrl: "https://github.com/ham-49/movie",
+    pageUrl: "https://movie-306.netlify.app/",
+    mainImg: "image/movie.png",
+    subImg: "image/movie-responsive.png",
+    popupInfo: "기획, 디자인, 웹 퍼플리싱 참여 (개인프로젝트)",
+    mainList: ["메인페이지 전체"],
+    SubList: ["메인페이지 전체"],
+    /* plannerLink: , */
+    designLink: "https://www.figma.com/design/9BUnz6DkhRflJLlbSQhCGa/movie?node-id=5-118&m=dev&t=VKhXr858lX1YK3nI-1"
+  },
   {
     title: "정동야행",
     titleMain: "정동야행 클론코딩 프로젝트",
