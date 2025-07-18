@@ -412,7 +412,7 @@
 .portfolio-hub{
   position: relative;
   .input-wrap{
-    display: flex; align-items: center; justify-content: center; gap: 60px;
+    display: flex; align-items: center; justify-content: center; gap: 60px; flex-wrap: wrap;
     .option-wrap{
       .sub-title{
         h6{
