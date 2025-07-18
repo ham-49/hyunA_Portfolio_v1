@@ -779,6 +779,7 @@ h6 {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 25px;
+  flex-wrap : wrap;
 }
 .portfolio-hub .tab-wrap .tab-list li a {
   -webkit-transition: 0.5s;
