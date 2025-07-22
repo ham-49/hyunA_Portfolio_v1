@@ -184,7 +184,7 @@ const projectLists = [
     /* plannerLink: , */
     designLink: "https://www.figma.com/design/9BUnz6DkhRflJLlbSQhCGa/movie?node-id=5-118&m=dev&t=VKhXr858lX1YK3nI-1"
   },
-  {
+  /*{
     title: "정동야행",
     titleMain: "정동야행 클론코딩 프로젝트",
     titleSub: "다양한 Library를 활용하여 다양한 요소를 구현했고, <br>데스크탑 환경에 맞춰 서브페이지까지 제작했습니다.",
@@ -201,7 +201,7 @@ const projectLists = [
     SubList: ["서브페이지 전체(데스크탑)"],
     /* plannerLink: , */
     designLink: "https://www.figma.com/design/WMhNsUUVMMMZGFUHK4mNig/%EC%A0%95%EB%8F%99%EC%95%BC%ED%96%89-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=0-1&m=dev&t=97Cz8x32XIjB8CQl-1"
-  },
+  },*/
   {
     title: "날씨웹",
     titleMain: "날씨 웹 프로젝트",
