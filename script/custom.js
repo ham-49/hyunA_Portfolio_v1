@@ -195,7 +195,7 @@ const projectLists = [
     gitUrl: "https://github.com/ham-49/jeongdong-culturenight",
     pageUrl: "https://ham-49.github.io/jeongdong-culturenight/",
     mainImg: "image/jeongdong.png",
-    subImg: "",
+    subImg: "image/jeongdong-responsive.png",
     popupInfo: "기획, 웹 퍼플리싱 참여 (개인프로젝트)",
     mainList: ["메인페이지 전체"],
     SubList: ["서브페이지 전체"],
