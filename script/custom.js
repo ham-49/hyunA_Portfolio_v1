@@ -184,7 +184,24 @@ const projectLists = [
     /* plannerLink: , */
     designLink: "https://www.figma.com/design/9BUnz6DkhRflJLlbSQhCGa/movie?node-id=5-118&m=dev&t=VKhXr858lX1YK3nI-1"
   },
-  
+   {
+    title: "정동야행 프로젝트",
+    titleMain: "정동야행 클론코딩 프로젝트",
+    titleSub: "정동야행 사이트의 다양한 이벤트를, <br> script Library로 클론 코딩 사이트를 제작하였습니다.",
+    skills: ["VS Code", "HTML5", "SCSS", "JavaScript"],
+    option: "solo",
+    design: "Figma",
+    impact: "100%",
+    gitUrl: "https://github.com/ham-49/jeongdong-culturenight",
+    pageUrl: "https://ham-49.github.io/jeongdong-culturenight/",
+    mainImg: "image/jeongdong.png",
+    subImg: "image/jeongdong-responsive.png",
+    popupInfo: "웹 퍼플리싱 참여 (개인프로젝트)",
+    mainList: ["메인페이지 전체"],
+    SubList: ["메인페이지 전체"],
+    /* plannerLink: , */
+    designLink: "https://www.figma.com/design/WMhNsUUVMMMZGFUHK4mNig/%EC%A0%95%EB%8F%99%EC%95%BC%ED%96%89-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=0-1&m=dev&t=e8yod5wjTuZrxfvl-1"
+  },
   {
     title: "날씨웹",
     titleMain: "날씨 웹 프로젝트",
