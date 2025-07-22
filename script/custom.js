@@ -180,7 +180,7 @@ const projectLists = [
     subImg: "image/movie-responsive.png",
     popupInfo: "기획, 디자인, 웹 퍼플리싱 참여 (개인프로젝트)",
     mainList: ["메인페이지 전체"],
-    SubList: ["메인페이지 전체"],
+    SubList: ["서브페이지 전체"],
     /* plannerLink: , */
     designLink: "https://www.figma.com/design/9BUnz6DkhRflJLlbSQhCGa/movie?node-id=5-118&m=dev&t=VKhXr858lX1YK3nI-1"
   },
@@ -198,7 +198,7 @@ const projectLists = [
     subImg: "image/jeongdong-responsive.png",
     popupInfo: "웹 퍼플리싱 참여 (개인프로젝트)",
     mainList: ["메인페이지 전체"],
-    SubList: ["메인페이지 전체"],
+    SubList: ["서브페이지 전체"],
     /* plannerLink: , */
     designLink: "https://www.figma.com/design/WMhNsUUVMMMZGFUHK4mNig/%EC%A0%95%EB%8F%99%EC%95%BC%ED%96%89-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=0-1&m=dev&t=e8yod5wjTuZrxfvl-1"
   },
