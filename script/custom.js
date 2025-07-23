@@ -271,8 +271,7 @@ const projectLists = [
     popupInfo: "기획, 디자인, 웹 퍼플리싱 참여(개인 프로젝트)",
     mainList: ["메인페이지 전체"],
     SubList: ["전체 카테고리", "수강 상세페이지", "수강신청 장바구니", "회원가입"],
-    /* plannerLink: "https://github.com/ham-49/inflearn",
-    designLink: "https://github.com/ham-49/inflearn" */
+    designLink: "https://www.figma.com/design/zqwy2JwjfrYaDrtlbxs8t3/%EC%9D%B8%ED%94%84%EB%9F%B0%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=11-1020&m=dev&t=MoDOXHqkXpH0lpSy-1"
   },
   {
     title: "한국 특허정보원",
