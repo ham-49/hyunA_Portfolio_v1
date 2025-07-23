@@ -339,26 +339,6 @@ function bindTabEvents(data) {
 function renderProjects(data) {
   container.innerHTML = '';
   data.forEach((list) => {
-    /* left */
-    let portfolioLeft = document.createElement('div');
-    portfolioLeft.className = 'portfolio-left';
-    portfolioLeft.innerHTML = `
-      <div class="portfolio-title">
-        <h4>${list.titleMain}</h4>
-        <p>${list.titleSub}</p>
-      </div>
-      <div class="portfolio-info">
-        <p>개발환경 : ${list.skills.map(skill => `<span>${skill}</span>`).join(', ')}</p>
-        <p>디자인 설계 : <span>${list.design}</span></p>
-        <p>기여도 : <span>${list.impact}</span></p>
-      </div>
-      <div class="portfolio-btn-wrap">
-        <a href="#none" class="portfolio-btn popup" data-index="${list.originalIndex}">상세정보</a>
-        <a href="${list.gitUrl}" class="portfolio-btn" target="_blank">Git Hub</a>
-        <a href="${list.pageUrl}" class="portfolio-btn" target="_blank">완성 페이지</a>
-      </div>
-    `;
-    container.appendChild(portfolioLeft);
 
     /* right */
     let portfolioRight = document.createElement('div');
@@ -383,6 +363,28 @@ function renderProjects(data) {
 
     portfolioRight.innerHTML = monitorHTML + phoneHTML;
     container.appendChild(portfolioRight);
+
+        /* left */
+    let portfolioLeft = document.createElement('div');
+    portfolioLeft.className = 'portfolio-left';
+    portfolioLeft.innerHTML = `
+      <div class="portfolio-title">
+        <h4>${list.titleMain}</h4>
+        <p>${list.titleSub}</p>
+      </div>
+      <div class="portfolio-info">
+        <p>개발환경 : ${list.skills.map(skill => `<span>${skill}</span>`).join(', ')}</p>
+        <p>디자인 설계 : <span>${list.design}</span></p>
+        <p>기여도 : <span>${list.impact}</span></p>
+      </div>
+      <div class="portfolio-btn-wrap">
+        <a href="#none" class="portfolio-btn popup" data-index="${list.originalIndex}">상세정보</a>
+        <a href="${list.gitUrl}" class="portfolio-btn" target="_blank">Git Hub</a>
+        <a href="${list.pageUrl}" class="portfolio-btn" target="_blank">완성 페이지</a>
+      </div>
+    `;
+    container.appendChild(portfolioLeft);
+
   });
 }
 
