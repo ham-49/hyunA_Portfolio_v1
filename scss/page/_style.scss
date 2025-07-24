@@ -504,6 +504,7 @@
       }
       .portfolio-btn-wrap{
         display: flex; justify-content: flex-end;
+        padding-right: 15%;
         @at-root .portfolio-btn{
           display: block;
           width: max-content;
