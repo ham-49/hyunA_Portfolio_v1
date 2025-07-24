@@ -5,23 +5,12 @@
   }
   /* ########## intro ########## */
   .intro{
-    .intro-text-wrap{
-      left: 3%;
-      h1{
-        font-family: $primary-en;
-        margin-bottom: -30px;
-        padding-left: 20px;
-        font-size: $h3;
-      }
-      p{
-        font-size: $intro-title;
-        font-family: $primary-en;
-      }
-      h2{
-        padding-left: 20px;
-        margin-bottom: -5px;
-        font-size: $h4;
-      }
+    .text-wrap{
+      font-size: 65px;
+      font-weight: 600;
+    }
+    .fa-arrow-down{
+      font-size: 35px;
     }
   }
   /* ######### about-me ######### */
