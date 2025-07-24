@@ -184,7 +184,7 @@ const projectLists = [
     /* plannerLink: , */
     designLink: "https://www.figma.com/design/9BUnz6DkhRflJLlbSQhCGa/movie?node-id=5-118&m=dev&t=VKhXr858lX1YK3nI-1"
   },
-   {
+  {
     title: "정동야행 프로젝트",
     titleMain: "정동야행 클론코딩 프로젝트",
     titleSub: "정동야행 사이트의 다양한 이벤트를, <br> script Library로 클론 코딩 사이트를 제작하였습니다.",
@@ -340,9 +340,9 @@ function renderProjects(data) {
   container.innerHTML = '';
   data.forEach((list) => {
 
-    /* right */
-    let portfolioRight = document.createElement('div');
-    portfolioRight.className = 'portfolio-right';
+    /* left */
+    let portfolioLeft = document.createElement('div');
+    portfolioLeft.className = 'portfolio-left';
     let monitorHTML = '';
     let phoneHTML = '';
     if (list.mainImg) {
@@ -361,13 +361,13 @@ function renderProjects(data) {
       `;
     }
 
-    portfolioRight.innerHTML = monitorHTML + phoneHTML;
-    container.appendChild(portfolioRight);
+    portfolioLeft.innerHTML = monitorHTML + phoneHTML;
+    container.appendChild(portfolioLeft);
 
         /* left */
-    let portfolioLeft = document.createElement('div');
-    portfolioLeft.className = 'portfolio-left';
-    portfolioLeft.innerHTML = `
+    let portfolioRight = document.createElement('div');
+    portfolioRight.className = 'portfolio-right';
+    portfolioRight.innerHTML = `
       <div class="portfolio-title">
         <h4>${list.titleMain}</h4>
         <p>${list.titleSub}</p>
@@ -378,12 +378,12 @@ function renderProjects(data) {
         <p>기여도 : <span>${list.impact}</span></p>
       </div>
       <div class="portfolio-btn-wrap">
-        <a href="#none" class="portfolio-btn popup" data-index="${list.originalIndex}">상세정보</a>
-        <a href="${list.gitUrl}" class="portfolio-btn" target="_blank">Git Hub</a>
-        <a href="${list.pageUrl}" class="portfolio-btn" target="_blank">완성 페이지</a>
+      <a href="${list.gitUrl}" class="portfolio-btn" target="_blank">Git Hub</a>
+      <a href="${list.pageUrl}" class="portfolio-btn" target="_blank">완성 페이지</a>
+      <a href="#none" class="portfolio-btn popup" data-index="${list.originalIndex}">상세정보</a>
       </div>
     `;
-    container.appendChild(portfolioLeft);
+    container.appendChild(portfolioRight);
 
   });
 }
