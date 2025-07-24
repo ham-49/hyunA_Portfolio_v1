@@ -168,80 +168,53 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   overflow: hidden;
   z-index: 10000;
-}
-.intro .side {
-  width: 60%;
-  height: 100%;
-  position: absolute;
-  -webkit-transition: 1s ease;
-  transition: 1s ease;
-}
-.intro .side.left {
   background: #CFC5A1;
-  clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
-  top: 0;
-  left: 0;
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
 }
-.intro .side.right {
-  background: #454545;
-  clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
-  top: 0;
-  right: 0;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+.intro .text-wrap {
+  font-size: 80px;
+  font-weight: 600;
+  color: #F4F1E8;
+  text-align: center;
+  margin-top: auto;
 }
-.intro .side.show {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-  opacity: 1;
+.intro .text-wrap p {
+  margin: 5px 0;
 }
-.intro .side.hide-left {
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
-  opacity: 0;
-}
-.intro .side.hide-right {
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
-  opacity: 0;
-}
-.intro .intro-text-wrap {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  left: 10%;
-  color: #ffffff;
-  -webkit-transition: 0.8s ease;
-  transition: 0.8s ease;
-  opacity: 0;
-}
-.intro .intro-text-wrap h1 {
-  font-family: "Alexandria", sans-serif;
-  margin-bottom: -30px;
-  padding-left: 20px;
-}
-.intro .intro-text-wrap p {
-  font-size: 150px;
-  font-family: "Alexandria", sans-serif;
-}
-.intro .intro-text-wrap h2 {
-  padding-left: 20px;
-  margin-bottom: -5px;
-}
-.intro .intro-text-wrap h2 strong {
+.intro .text-wrap span {
   color: #454545;
 }
-.intro .intro-text-wrap.show {
-  opacity: 1;
+.intro .fa-arrow-down {
+  margin-top: auto;
+  margin-bottom: 4%;
+  font-size: 50px;
+  -webkit-animation: arrowAni01 0.8s linear infinite alternate;
+          animation: arrowAni01 0.8s linear infinite alternate;
 }
-.intro .intro-text-wrap.hide {
-  opacity: 0;
+@-webkit-keyframes arrowAni01 {
+  0% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  100% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+}
+@keyframes arrowAni01 {
+  0% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  100% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
 }
 
 /* ########## main ########## */
@@ -849,10 +822,6 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  padding-right: 15%;
 }
 .portfolio-btn {
   display: block;
@@ -1105,23 +1074,12 @@ footer .footer-copyright {
     padding-top: 120px;
   }
   /* ########## intro ########## */
-  .intro .intro-text-wrap {
-    left: 3%;
+  .intro .text-wrap {
+    font-size: 65px;
+    font-weight: 600;
   }
-  .intro .intro-text-wrap h1 {
-    font-family: "Alexandria", sans-serif;
-    margin-bottom: -30px;
-    padding-left: 20px;
-    font-size: 40px;
-  }
-  .intro .intro-text-wrap p {
-    font-size: 100px;
-    font-family: "Alexandria", sans-serif;
-  }
-  .intro .intro-text-wrap h2 {
-    padding-left: 20px;
-    margin-bottom: -5px;
-    font-size: 30px;
+  .intro .fa-arrow-down {
+    font-size: 35px;
   }
   /* ######### about-me ######### */
   .about-me .inner .info-top-wrap {
@@ -1295,27 +1253,12 @@ footer .footer-copyright {
     overflow-x: hidden;
   }
   /* ########## intro ########## */
-  .intro .intro-text-wrap {
-    left: 1%;
-  }
-  .intro .intro-text-wrap h1 {
-    font-size: 20px;
-    margin-bottom: -5px;
-    padding-left: 10px;
-  }
-  .intro .intro-text-wrap p {
-    font-size: 55px;
-    font-family: "Alexandria", sans-serif;
+  .intro .text-wrap {
+    font-size: 40px;
     font-weight: 600;
   }
-  .intro .intro-text-wrap h2 {
-    font-size: 20px;
-    padding-left: 10px;
-  }
-  .intro .intro-text-wrap h2 strong {
-    color: #ffffff;
+  .intro .fa-arrow-down {
     font-size: 25px;
-    padding: 0 5px;
   }
   /* ########## nav ########## */
   .nav {
@@ -1814,7 +1757,6 @@ footer .footer-copyright {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-right: 0;
   }
   .portfolio-hub .portfolio-content .portfolio-right .portfolio-btn-wrap .portfolio-btn {
     margin-right: 15px;
