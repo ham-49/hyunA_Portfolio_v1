@@ -445,7 +445,7 @@
   .tab-wrap{
     margin: $margin40;
     .tab-list{
-      display: flex; align-items: center; justify-content: center; gap: 25px;
+      display: flex; align-items: center; justify-content: center; gap: 25px; flex-wrap: wrap;
       li{
         a{
           transition: .5s;
@@ -482,7 +482,7 @@
     height: auto;
     display: flex; gap: 60px;
     align-items: stretch;
-    .portfolio-left{
+    .portfolio-right{
       flex: 1;
       display: flex; flex-direction: column; justify-content: space-between;
       font-size: $body-title;
@@ -503,7 +503,7 @@
         }
       }
       .portfolio-btn-wrap{
-        display: flex;
+        display: flex; justify-content: flex-end;
         @at-root .portfolio-btn{
           display: block;
           width: max-content;
@@ -527,7 +527,7 @@
         display: flex; 
       }
     }
-    .portfolio-right{
+    .portfolio-left{
       flex: 1; height: 100%;
       min-height: 360px;
       position: relative;
