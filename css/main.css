@@ -852,6 +852,7 @@ h6 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  padding-right: 15%;
 }
 .portfolio-btn {
   display: block;
@@ -1813,6 +1814,7 @@ footer .footer-copyright {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-right: 0;
   }
   .portfolio-hub .portfolio-content .portfolio-right .portfolio-btn-wrap .portfolio-btn {
     margin-right: 15px;
