@@ -6,27 +6,12 @@
   html{overflow-x: hidden;}
   /* ########## intro ########## */
   .intro{
-    .intro-text-wrap{
-      left: 1%;
-      h1{
-        font-size: $h6;
-        margin-bottom: -5px;
-        padding-left: 10px;
-      }
-      p{
-        font-size: 55px;
-        font-family: $primary-en;
-        font-weight: 600;
-      }
-      h2{
-        font-size: $h6;
-        padding-left: 10px;
-        strong{
-          color: $white;
-          font-size: $h5;
-          padding: 0 5px;
-        }
-      }
+    .text-wrap{
+      font-size: 40px;
+      font-weight: 600;
+    }
+    .fa-arrow-down{
+      font-size: 25px;
     }
   }
   /* ########## nav ########## */
@@ -458,7 +443,7 @@
           }
         }
         .portfolio-btn-wrap{
-          display: flex; padding-right: 0;
+          display: flex;
           .portfolio-btn{
             margin-right: 15px;
           }
