@@ -140,7 +140,7 @@ const projectLists = [
     popupInfo: "기획, 디자인, 웹 퍼플리싱 참여 (팀프로젝트)",
     mainList: ["신메뉴", "온라인샵", "공지사항"],
     SubList: ["온라인예매", "자주묻는 질문", "창업문의"],
-    plannerLink: "../pdf/노티드도넛 기획서.pdf",
+    plannerLink: "/hyunA_Portfolio/pdf/노티드도넛 기획서.pdf",
     designLink: "https://www.figma.com/design/XptJ3xqQf0KaSSnmCPcYKM/%EB%85%B8%ED%8B%B0%EB%93%9C-%EB%8F%84%EB%84%9B-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=0-1&m=dev&t=vqZ8Ea5vsH88OqCj-1"
   },
   {
@@ -193,7 +193,7 @@ const projectLists = [
     popupInfo: "기획, 디자인, 웹 퍼플리싱 참여 (개인 프로젝트)",
     mainList: ["메인페이지 전체"],
     SubList: ["채용정보", "입찰정보", "공지사항", "자주묻는질문", "온라인 민원창구"],
-    plannerLink: "../pdf/한국특허정보원기획서.pdf",
+    plannerLink: "/hyunA_Portfolio/pdf/한국특허정보원기획서.pdf",
     designLink: "https://www.figma.com/design/6VzlaNIbrZn0dT5HyDkdPq/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC_%EB%AC%B8%ED%98%84%EC%95%84%EC%B5%9C%EC%A2%85?node-id=0-1&m=dev&t=JlCpuhwjiOc6J5Iu-1"
   }
 ];
