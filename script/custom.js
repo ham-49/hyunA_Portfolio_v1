@@ -140,7 +140,7 @@ const projectLists = [
     popupInfo: "기획, 디자인, 웹 퍼플리싱 참여 (팀프로젝트)",
     mainList: ["신메뉴", "온라인샵", "공지사항"],
     SubList: ["온라인예매", "자주묻는 질문", "창업문의"],
-    /* plannerLink: "https://github.com/ham-49/Knotted", */
+    plannerLink: "../pdf/노티드도넛 기획서.pdf",
     designLink: "https://www.figma.com/design/XptJ3xqQf0KaSSnmCPcYKM/%EB%85%B8%ED%8B%B0%EB%93%9C-%EB%8F%84%EB%84%9B-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=0-1&m=dev&t=vqZ8Ea5vsH88OqCj-1"
   },
   {
